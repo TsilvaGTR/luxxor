@@ -1,0 +1,38 @@
+.titulo-principal {
+	color: var(--rosa-texto);
+	font-family: var(--fonte-principal);
+	font-weight: 500;
+	font-size: 20px;
+	text-align: center;
+	margin: 1em;
+}
+
+.mapa p {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+
+.mapa-conteudo {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+
+.mapa {
+	padding: 1.5em;
+	background: linear-gradient(#ECAB8B,#F5D1BE 80%);
+}
+
+iframe {
+	width: 100%;
+	border: 3px solid var(--rosa-padrao);
+	border-radius: 30px;
+	box-shadow: 3px 2px 5px var(--rosa-padrao);
+}
+
+.mapa p {
+	margin: 0 0 2em;
+	text-align: center;
+}

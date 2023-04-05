@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css  ">
+        <link rel="stylesheet" href="mapa.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+            <link href="https: //fonts.googleapis.com/css2?family= família= Josefin+Sans:wght@400;700 & display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+            <link rel="stylesheet" href="styles.css">
+            <link rel="icon" href="img/aba-icone.png" type="image/x-icon">
+            <title>LUXXOR by Sarah Câmara</title>
+    </head>
+
+    <body>
+        <header class="cabeçalho">
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburger container__imagem"></span>
+                </label>
+                    <ul class="lista-menu">
+                        <li class="lista-menu__titulo">Categorias</li>
+                        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Feminino</a></li>
+                        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Masculino</a></li>
+                        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Todes</a></li>
+                    </ul>
+                <img src="img/logoluxxor.jpeg" alt="Logo da Luxxor" class="container__imagem">
+                <h1 class="container__titulo"><b class="container__titulo--negrito">LUXXOR </b>Acessórios</h1>
+            </div>
+
+            <ul class="opcoes">
+                <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+                    <label for="opcoes-menu" class="opcoes__rotulo">
+                        <li class="opcoes__item">Categorias</li>
+                    </label>
+
+                    <ul class="lista-menu">
+                        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Feminino</a></li>
+                        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Masculino</a></li>
+                        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Todes</a></li>
+                    </ul>
+
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a>
+                <li class="opcoes__item"><a href="#" class="opcoes__link">Minha sacola</a>    
+                </ul>            
+
+            <div class="container">
+                <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem container__imagem-transparente"></a>
+                <a href="#" class="container__link">
+                    <img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem">
+                    <p class="container__texto">Minha sacola</p>
+                </a>
+                <a href="#" class="container__link">
+                    <img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem">
+                    <p class="container__texto">Meu perfil</p>
+                </a>
+            </div>
+        </header>
+        <section class="banner">
+            <h2 class="banner__titulo">Seu novo estilo de vida!</h2>
+            <p class="banner__texto">Encontre aqui na vitrine, seu novo estilo!</p>
+            <input type="search" class="banner__pesquisa" placeholder= "O que será que combina com você?">
+        </section>   
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">Últimos Lançamentos</h2>
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="img/teste1.jpg" alt="Livro apache"></div>
+                    <div class="swiper-slide"><img src="img/teste2.jpg" alt="Livro liderança"></div>
+                    <div class="swiper-slide"><img src="img/teste3.jpg" alt="Livro JavaScript"></div>
+                    <div class="swiper-slide"><img src="img/teste4.jpg" alt="Guia Front-End"></div>
+                    <div class="swiper-slide"><img src="img/teste5.jpg" alt="Livro Portugol"></div>
+                    <div class="swiper-slide"><img src="img/teste6.jpg" alt="Livro Sobre Acessibilidade"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                
+                <div class="card">
+                    <!--1º Linha-->
+                    <div class="card__descricao">
+                        <!--1º Coluna-->
+                            <div class="descricao">
+                                <h3 class="descricao__titulo">Talvez você também se interesse por...</h3>
+                                <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+                                <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google</p>                        
+                            </div>
+                        <!--2ª Coluna-->
+                        <img src="img/modelo-colar.jpg" class="descricao__imagem">
+                    </div>
+
+                    <!--2ª Linha-->
+                        <div class="card__botoes">
+                            <!--1ª Coluna-->
+                            <ul class="botoes">
+                                <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                                <li class="botoes__item"><img src="img/Compras.svg" alt="Add carrinho de compras"></li>
+                            </ul>
+                            <!--2ª Coluna-->
+                            <a href="#" class="botoes__ancora">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="carrossel2">
+            <h2 class="carrossel2__titulo">Mais vendidos</h2>
+            <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/teste1.jpg" alt="Livro apache"></div>
+                <div class="swiper-slide"><img src="img/teste2.jpg" alt="Livro liderança"></div>
+                <div class="swiper-slide"><img src="img/teste3.jpg" alt="Livro JavaScript"></div>
+                <div class="swiper-slide"><img src="img/teste4.jpg" alt="Guia Front-End"></div>
+                <div class="swiper-slide"><img src="img/teste5.jpg" alt="Livro Portugol"></div>
+                <div class="swiper-slide"><img src="img/teste6.jpg" alt="Livro Sobre Acessibilidade"></div>
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            
+            <div class="card">
+                <!--1º Linha-->
+                <div class="card__descricao">
+                    <!--1º Coluna-->
+                        <div class="descricao">
+                            <div class="estrelas__posicao">
+                            <img src="img/Star 1.svg">
+                            <img src="img/Star 2.svg">
+                            <img src="img/Star 3.svg">
+                            <img src="img/Star 4.svg">
+                            <img src="img/Star 5.svg">
+                        </div>    
+
+                            <h3 class="descricao__titulo">Campeão de vendas no mês!</h3>
+                            <h2 class="descricao__titulo-livro">Colar do Arrebatamento</h2>
+                            <p class="descricao__texto">Este colar foi encontrado na sepultura de Lázaro.</p>                        
+                        </div>
+                    <!--2ª Coluna-->
+                    <img src="img/modelo-colar.jpg" class="descricao__imagem">
+                </div>
+
+                <!--2ª Linha-->
+                <div class="card__botoes">
+                        <!--1ª Coluna-->
+                        <ul class="botoes">
+                            <li class="botoes__item"><img src="img/Favoritos.svg" alt="Favoritar livro"></li>
+                            <li class="botoes__item"><img src="img/Compras.svg" alt="Add carrinho de compras"></li>
+                        </ul>
+                        <!--2ª Coluna-->
+                        <a href="#" class="botoes__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+        </section>
+            <section class="topicos">
+                <h2 class="topicos__titulo">MAIS PROCURADOS RECENTEMENTE</h2>
+                <ul class="topicos__lista">
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Colares Femininos</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Anel de Prata</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Pulseiras</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Alianças</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Tornozeleiras</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Brincos Infantis</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Piercings</a>
+                    </li>
+                    <li class="topicos__item">
+                        <a href="#" class="topicos__link">Alargadores</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="mapa">
+                <h3 class="titulo-principal">Nossa localização</h3>
+                <p>A LUXXOR Acessórios, fica próximo ao Shop. Interlagos</p>
+                
+                <div class="mapa-conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1827.1068648937248!2d-46.67291624201647!3d-23.668313539561495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5007a06b67d3%3A0x246a6ef2eccab794!2sRua%20Fel%C3%ADcio%20Atalla%2C%20122%20-%20Vila%20Constancia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004658-010!5e0!3m2!1spt-BR!2sbr!4v1679600106641!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </iframe>
+                </div>		
+            </section>
+
+            <section class="contato">
+                    <div class="contato__descricao">
+                        <h2 class="contato__titulo">Fique por dentro das novidades!!!</h2>
+                        <p class="contato__texto">Sempre temos promoções, e produtos diferenciados de qualidade!</p>
+                    </div>
+                <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+            </section>
+            <footer class="rodape">
+                <h2 class="rodape__titulo">Luxxor Acessórios By Sarah Câmara</h2>
+                <ul class="lista-rodape">
+                    <li class="lista-rodape__titulo">Contato / E-mail</li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_wats.png" alt="Logo WhatsApp"><a href="https://api.whatsapp.com/send?phone=5511962598546" class="lista-rodape__link">Fale diretamente</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_email.png" alt="Logo e-mail"><a href="#" class="lista-rodape__link">acessoriosluxxor@gmail.com</a>
+                    </li>
+                </ul>
+                <ul class="lista-rodape">
+                    <li class="lista-rodape__titulo">Redes Sociais</li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_insta.png" alt="Logo instagram"><a href="https://www.instagram.com/luxxor.acessorios/" class="lista-rodape__link">Instagram LUXXOR</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_insta.png" alt="Logo instagram"><a href="https://www.instagram.com/sarahhhcp/?igshid=ZDdkNTZiNTM%3D" class="lista-rodape__link">Instagram Proprietária</a>
+                    </li>
+                </ul>
+
+                <ul class="lista-rodape">
+                    <li class="lista-rodape__titulo">Formas de Pagamentos</li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_mastercard.png" alt="Logo mastercard"><a href="#" class="lista-rodape__link">Master Card</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_visa.png" alt="Logo visacard"><a href="#" class="lista-rodape__link">Visa</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_boleto.png" alt="Logo boleto"><a href="#" class="lista-rodape__link">Boleto Bancário</a>
+                    </li>
+                    <li class="lista-rodape__item">
+                        <img src="img/icone_pix.png" alt="Logo pix"><a href="#" class="lista-rodape__link">Pix e Transferências</a>
+                    </li>
+                </ul>
+            </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script>swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                },
+            });
+            </script> 
+    </body>
+</html>
